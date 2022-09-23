@@ -7,14 +7,14 @@
 
 
 <p align="center">
-<img src="https://img.shields.io/github/go-mod/go-version/projectdiscovery/nuclei?filename=v2%2Fgo.mod">
-<a href="https://github.com/projectdiscovery/nuclei/releases"><img src="https://img.shields.io/github/downloads/projectdiscovery/nuclei/total">
-<a href="https://github.com/projectdiscovery/nuclei/graphs/contributors"><img src="https://img.shields.io/github/contributors-anon/projectdiscovery/nuclei">
-<a href="https://github.com/projectdiscovery/nuclei/releases/"><img src="https://img.shields.io/github/release/projectdiscovery/nuclei">
-<a href="https://github.com/projectdiscovery/nuclei/issues"><img src="https://img.shields.io/github/issues-raw/projectdiscovery/nuclei">
-<a href="https://github.com/projectdiscovery/nuclei/discussions"><img src="https://img.shields.io/github/discussions/projectdiscovery/nuclei">
-<a href="https://discord.gg/projectdiscovery"><img src="https://img.shields.io/discord/695645237418131507.svg?logo=discord"></a>
-<a href="https://twitter.com/pdnuclei"><img src="https://img.shields.io/twitter/follow/pdnuclei.svg?logo=twitter"></a>
+<img src="https://img.shields.io/github/go-mod/go-version/trhacknon/nuclei?filename=v2%2Fgo.mod">
+<a href="https://github.com/trhacknon/nuclei/releases"><img src="https://img.shields.io/github/downloads/trhacknon/nuclei/total">
+<a href="https://github.com/trhacknon/nuclei/graphs/contributors"><img src="https://img.shields.io/github/contributors-anon/trhacknon/nuclei">
+<a href="https://github.com/trhacknon/nuclei/releases/"><img src="https://img.shields.io/github/release/projectdiscovery/nuclei">
+<a href="https://github.com/trhacknon/nuclei/issues"><img src="https://img.shields.io/github/issues-raw/trhacknon/nuclei">
+<a href="https://github.com/trhacknon/nuclei/discussions"><img src="https://img.shields.io/github/discussions/trhacknon/nuclei">
+<a href="https://discord.gg/"><img src="https://img.shields.io/discord/695645237418131507.svg?logo=discord"></a>
+<a href="https://twitter.com/"><img src="https://img.shields.io/twitter/follow/pdnuclei.svg?logo=twitter"></a>
 </p>
       
 <p align="center">
@@ -25,20 +25,20 @@
   <a href="https://nuclei.projectdiscovery.io/nuclei/get-started/">Documentation</a> •
   <a href="#credits">Credits</a> •
   <a href="https://nuclei.projectdiscovery.io/faq/nuclei/">FAQs</a> •
-  <a href="https://discord.gg/projectdiscovery">Join Discord</a>
+  <a href="https://discord.gg/">Join Discord</a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/projectdiscovery/nuclei/blob/master/README.md">English</a> •
-  <a href="https://github.com/projectdiscovery/nuclei/blob/master/README_CN.md">中文</a> •
-  <a href="https://github.com/projectdiscovery/nuclei/blob/master/README_KR.md">Korean</a>
+  <a href="https://github.com/trhacknon/nuclei/blob/master/README.md">English</a> •
+  <a href="https://github.com/trhacknon/nuclei/blob/master/README_CN.md">中文</a> •
+  <a href="https://github.com/trhacknon/nuclei/blob/master/README_KR.md">Korean</a>
 </p>
 
 ---
 
 Nuclei is used to send requests across targets based on a template, leading to zero false positives and providing fast scanning on a large number of hosts. Nuclei offers scanning for a variety of protocols, including TCP, DNS, HTTP, SSL, File, Whois, Websocket, Headless etc. With powerful and flexible templating, Nuclei can be used to model all kinds of security checks.
 
-We have a [dedicated repository](https://github.com/projectdiscovery/nuclei-templates) that houses various type of vulnerability templates contributed by **more than 300** security researchers and engineers.
+We have a [dedicated repository](https://github.com/trhacknon/nuclei-templates) that houses various type of vulnerability templates contributed by **more than 300** security researchers and engineers.
 
 
 
@@ -55,7 +55,7 @@ We have a [dedicated repository](https://github.com/projectdiscovery/nuclei-temp
 Nuclei requires **go1.17** to install successfully. Run the following command to install the latest version -
 
 ```sh
-go install -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest
+go install -v github.com/trhacknon/nuclei/v2/cmd/nuclei@latest
 ```
 
 **More installation [methods can be found here](https://nuclei.projectdiscovery.io/nuclei/get-started/).**
@@ -66,7 +66,7 @@ go install -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest
 
 ### Nuclei Templates
 
-Nuclei has built-in support for automatic template download/update as default since version [v2.5.2](https://github.com/projectdiscovery/nuclei/releases/tag/v2.5.2). [**Nuclei-Templates**](https://github.com/projectdiscovery/nuclei-templates) project provides a community-contributed list of ready-to-use templates that is constantly updated.
+Nuclei has built-in support for automatic template download/update as default since version [v2.5.2](https://github.com/trhacknon/nuclei/releases/tag/v2.5.2). [**Nuclei-Templates**](https://github.com/trhacknon/nuclei-templates) project provides a community-contributed list of ready-to-use templates that is constantly updated.
 
 You may still use the `update-templates` flag to update the nuclei templates at any time; You can write your own checks for your individual workflow and needs following Nuclei's [templating guide](https://nuclei.projectdiscovery.io/templating-guide/).
 
@@ -232,13 +232,13 @@ STATISTICS:
 
 ### Running Nuclei
 
-Scanning target domain with [community-curated](https://github.com/projectdiscovery/nuclei-templates) nuclei templates.
+Scanning target domain with [community-curated](https://github.com/trhacknon/nuclei-templates) nuclei templates.
 
 ```sh
 nuclei -u https://example.com
 ```
 
-Scanning target URLs with [community-curated](https://github.com/projectdiscovery/nuclei-templates) nuclei templates.
+Scanning target URLs with [community-curated](https://github.com/trhacknon/nuclei-templates) nuclei templates.
 
 ```sh
 nuclei -list urls.txt
@@ -318,7 +318,7 @@ We have [a discussion thread around this](https://github.com/projectdiscovery/nu
 </h3>
 
 <h1 align="left">
-  <a href="https://github.com/projectdiscovery/nuclei-action"><img src="static/learn-more-button.png" width="170px" alt="Learn More"></a>
+  <a href="https://github.com/trhacknon/nuclei-action"><img src="static/learn-more-button.png" width="170px" alt="Learn More"></a>
 </h1>
 
 ### Resources
@@ -339,11 +339,11 @@ We have [a discussion thread around this](https://github.com/projectdiscovery/nu
 
 Thanks to all the amazing community [contributors for sending PRs](https://github.com/projectdiscovery/nuclei/graphs/contributors). Do also check out the below similar open-source projects that may fit in your workflow:
 
-[FFuF](https://github.com/ffuf/ffuf), [Qsfuzz](https://github.com/ameenmaali/qsfuzz), [Inception](https://github.com/proabiral/inception), [Snallygaster](https://github.com/hannob/snallygaster), [Gofingerprint](https://github.com/Static-Flow/gofingerprint), [Sn1per](https://github.com/1N3/Sn1per/tree/master/templates), [Google tsunami](https://github.com/google/tsunami-security-scanner), [Jaeles](https://github.com/jaeles-project/jaeles), [ChopChop](https://github.com/michelin/ChopChop)
+[FFuF](https://github.com/ffuf/ffuf), [Qsfuzz](https://github.com/ameenmaali/qsfuzz), [Inception](https://github.com/proabiral/inception), [Snallygaster](https://github.com/trhacknon/snallygaster), [Gofingerprint](https://github.com/Static-Flow/gofingerprint), [Sn1per](https://github.com/trhacknon/Sn1per/tree/master/templates), [Google tsunami](https://github.com/google/tsunami-security-scanner), [Jaeles](https://github.com/jaeles-project/jaeles), [ChopChop](https://github.com/michelin/ChopChop)
 
 ### License
 
-Nuclei is distributed under [MIT License](https://github.com/projectdiscovery/nuclei/blob/master/LICENSE.md)
+Nuclei is distributed under [MIT License](https://github.com/trhacknon/nuclei/blob/master/LICENSE.md)
 
 <h1 align="left">
   <a href="https://discord.gg/projectdiscovery"><img src="static/Join-Discord.png" width="380" alt="Join Discord"></a> <a href="https://nuclei.projectdiscovery.io"><img src="static/check-nuclei-documentation.png" width="380" alt="Check Nuclei Documentation"></a>
